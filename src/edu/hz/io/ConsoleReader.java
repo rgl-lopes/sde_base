@@ -6,12 +6,12 @@ import java.io.InputStreamReader;
 
 public class ConsoleReader {
 
-    public String readLine() {
+    public String leesderegels() {
         try {
             String line = (new BufferedReader(new InputStreamReader(System.in))).readLine();
             return line;
         } catch (IOException var2) {
-            return "Gibberish input detected";
+            return "Onzin input gedetecteerd!!!!!!!";
         }
     }
 }
