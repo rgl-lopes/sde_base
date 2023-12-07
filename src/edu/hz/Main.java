@@ -14,7 +14,7 @@ public class Main {
         // execute
         HZMissionStatement HZIP = new HZMissionStatement();
 
-        writer.writeLines(HZIP.geefeersteambitie());
+        writer.writeLines(HZIP.getFirstAmbition());
 //        reader.readLine();
 
     }
